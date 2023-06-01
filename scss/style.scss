@@ -1,0 +1,30 @@
+
+//HEADER
+@import "layout/header";
+
+//MAIN
+@import "layout/main";
+
+//BODY 
+@import "layout/body"; 
+
+//BASE
+@import "_base/_base";
+
+//FONT
+@import "_base/font";
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+
+
+
+
+
+
+
+
+
+.nav-list__cat--4 a, h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}

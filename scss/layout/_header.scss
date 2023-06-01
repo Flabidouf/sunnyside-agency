@@ -1,0 +1,60 @@
+
+
+header {
+    background-image: url("/images/photos/header.jpg");
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height:80vh;
+    display:flex;
+    justify-content: space-between;
+    padding:3em;
+    position:relative;
+
+    .logo {
+        display:flex;
+
+    }
+
+    ul {
+        display: flex;
+        gap: 3em;
+        list-style-type: none;
+
+      a {
+        background-color: white;
+        color:hsl(212, 27%, 19%);
+        padding:18px 35px;
+        border-radius: 28px;
+        text-decoration: none;
+        }
+    }
+    .title {
+        width:100%;
+        min-height:200px;
+        //Pour être libre de positionner l'élément dans son parent (header)//
+        position:absolute;
+        //Positionne l'élément à gauche et le fait descendre de 20vh depuis le top//
+        left:0;
+        top:20vh;
+        display:flex;
+        //Pour mettre le titre et la flèche un au-dessus de l'autre//
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:3em;
+    
+       
+    
+        .arrow {
+        height: 150px;
+        }
+    }
+    
+}
+
+
+
+
+//Pq la page est-elle trop large ? Pcq width:100% sur le header//
+
